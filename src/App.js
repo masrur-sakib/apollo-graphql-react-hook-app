@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <nav className="navbar navbar-light text-light site-header">
         <div className="container-fluid">
-            <a className="navbar-brand site-title" href="/">
+            <a className="navbar-brand site-title" href="https://masrursakib-react-apollo-graphql-papaparse-bootstrap5-tasks.netlify.app/">
                 <h4>React Frontend Tasks</h4>
             </a>
         </div>
