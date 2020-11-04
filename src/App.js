@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
 
+import gql from "graphql-tag"
+import { useQuery } from "@apollo/react-hooks"
+
+const query = gql`
+  query {
+    user(id: 1) {
+      id
+      name
+      username
+      email
+      phone
+      website
+    }
+  }
+`
+
 function App() {
+  const {loading, data } = useQuery(query)
+  if(loading) return <h4>Data loading, Please wait.</h4>
+  console.log(data);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>{data.user.name}</h1>
     </div>
   );
 }
