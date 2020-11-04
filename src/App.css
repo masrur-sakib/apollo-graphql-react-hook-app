@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.site-header{
+  background-color: #17a3b8cc;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.site-title h4{
+  color: #ffffffec;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.apollo-graphql-task-page{
+  margin: 10px 30px;
+  box-shadow: 0 0 35px -2px #48497926;
+  padding-bottom: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.apollo-graphql-page-header{
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: #45B5C6;
+}
+.apollo-graphql-page-title{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-self: center;
+}
+.apollo-graphql-page-title h5{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.td-less-data{
+  /* min-width: 110px; */
+  max-width: 110px;
+  overflow-x: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.td-more-data{
+  /* min-width: 100px; */
+  max-width: 100px;
+  overflow-x: auto;
 }
