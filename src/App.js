@@ -20,6 +20,7 @@ const query = gql`
 function App() {
   const {loading, data } = useQuery(query)
   if(loading) return <h4 className="text-info">Data loading, Please wait.</h4>
+  console.log(data);
   return (
     <div className="App">
       {/* Site Header / Navbar  */}
