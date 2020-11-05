@@ -23,7 +23,7 @@
         <h5>CSS</h5>
     </li>
     <li>
-        <h5>Bootstrap</h5>
+        <h5>Bootstrap 5</h5>
     </li>
     
     
