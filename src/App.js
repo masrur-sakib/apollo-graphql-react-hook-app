@@ -22,6 +22,7 @@ function App() {
   if(loading) return <h4 className="text-info">Data loading, Please wait.</h4>
   return (
     <div className="App">
+      {/* Site Header / Navbar  */}
       <nav className="navbar navbar-light text-light site-header">
         <div className="container-fluid">
             <a className="navbar-brand site-title" href="https://masrursakib-react-apollo-graphql-papaparse-bootstrap5-tasks.netlify.app/">
@@ -29,7 +30,9 @@ function App() {
             </a>
         </div>
       </nav>
+      {/* Apollo GraphQl Component  */}
       <div className="apollo-graphql-task-page">
+      {/* Apollo GraphQl Component Header / Navbar  */}
         <nav className="navbar navbar-light text-light apollo-graphql-page-header">
           <div className="container-fluid apollo-graphql-page-title">
               <a className="navbar-brand" href="/apollo-graphql">
@@ -37,6 +40,7 @@ function App() {
               </a>
           </div>
         </nav>
+        {/* Apollo GraphQl Component Data Table  */}
         <table className="table table-bordered">
           <thead className="thead-light bg-info">
               <tr>
