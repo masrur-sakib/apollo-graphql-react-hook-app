@@ -55,7 +55,7 @@ function App() {
           </thead>
           <tbody>
               <tr>
-                  <td class>{data.user.id}</td>
+                  <td>{data.user.id}</td>
                   <td>{data.user.name}</td>
                   <td>{data.user.username}</td>
                   <td>{data.user.email}</td>
