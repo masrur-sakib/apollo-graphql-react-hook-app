@@ -1,4 +1,4 @@
-<h3>Github Profile Finder Using React.js & Github API<h3>
+<h3>GraphQL, Apollo & React.js Project<h3>
 
 <h6>It’s a React, Apollo, GraphQl App where data are being fetched from <a target="_blank" href="https://graphqlzero.almansi.me/api">this API</a> using GraphQL Query, Apollo & React UseQuery Hook.</h6>
 
